@@ -3,4 +3,3 @@ var isPalindrome = function (x) {
   if (str === [...str].reverse().join("")) return true;
   else return false;
 };
-console.log(isPalindrome(121));
