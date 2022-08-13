@@ -54,8 +54,6 @@ bool check(TreeNode *node1, TreeNode *node2) {
 }
 
 bool isSymmetric(TreeNode* root) {
-    if(root->left == nullptr && root->right == nullptr) return true;
-    if(!root->left || !root->right) return false;
     return check(root->left,root->right);
 }
 
