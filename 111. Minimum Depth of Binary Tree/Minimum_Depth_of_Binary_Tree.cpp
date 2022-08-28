@@ -67,8 +67,9 @@ int minDepth(TreeNode* root) {
     int min = INT_MAX;
     int level = 1;
 
-    while(!Q.empty()) {       
-        for(int i=0; i<Q.size(); i++) {
+    while(!Q.empty()) {     
+        int n = Q.size();  
+        for(int i=0; i<n; i++) {
             TreeNode* temp = Q.front();
             Q.pop();
             if(temp->left) Q.push(temp->left);
