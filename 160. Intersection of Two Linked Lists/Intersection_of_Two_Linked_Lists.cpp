@@ -49,7 +49,7 @@ class ListNode {
 
 
 /////////-------Another Solution-------//////////////////
-ListNode *getIntersectionNode(ListNode *headA, ListNode *headB) {
+ListNode *getIntersectionNode (ListNode *headA, ListNode *headB) {
 
     ListNode* h1 = headA;
     ListNode* h2 = headB;
